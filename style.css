@@ -1,0 +1,27 @@
+#logo, .texto, .fecha {
+    font-family: Pacifico;
+}
+
+
+
+.nav-pills .nav-link.active {
+    background-color: #706f6f !important;
+    color: white !important;
+}
+
+.nav-pills .nav-link {
+    color: #706f6f !important;
+}
+
+body {
+    background-color: rgb(228, 228, 228);
+}
+
+
+.post {
+    width: 400px;
+}
+
+#gear {
+    color:grey;
+}
