@@ -13,14 +13,14 @@
 <body>
     <div class="container">
         <div class="row bg-light fixed-top">
-            <div class="col-md-4">
-                <p class="float-md-end mx-2 my-1 fs-2" id="logo">Instagram</p>
-                <i class="fab fa-instagram fs-2 float-md-end mx-2 my-3"></i>
+            <div class="col-md-4 col-sm-6 col-6">
+                <p class="float-end mx-2 my-1 fs-2" id="logo">Instagram</p>
+                <i class="fab fa-instagram fs-2 float-end mx-2 my-3"></i>
             </div>
-            <div class="col-md-4 d-none d-sm-block">
+            <div class="col-md-4 d-none d-sm-none d-md-block">
             </div>
-            <div class="col-md-4 d-flex">
-                <button class="btn btn-success mx-2 my-3" type="button" data-bs-toggle="modal" data-bs-target="#new">Create New Post</button>
+            <div class="col-md-4 col-sm-6 col-6 d-flex">
+                <button class="btn btn-sm btn-success mx-2 my-3" type="button" data-bs-toggle="modal" data-bs-target="#new">Create New Post</button>
                 <div class="btn-group" role="group">
                     <button id="btnGroupDrop1" type="button" class="btn btn-light dropdown-toggle mx-2 my-3" data-bs-toggle="dropdown" aria-expanded="false">
                         <i class="fas fa-cog" id="gear"></i>
@@ -35,9 +35,9 @@
                   </div>
             </div>
         </div>
-        <div class="row mt-md-5 pt-md-5">
-                <div class="col-md-12 pt-xs-5">
-                        <ul class="nav nav-pills mb-3 d.flex justify-content-center" id="pills-tab" role="tablist">
+        <div class="nav nav-pills mb-3 justify-content-center mt-5 pt-5">
+                <div class="col-12">
+                        <ul class="nav nav-pills mb-3  justify-content-center" id="pills-tab" role="tablist">
                             <li class="nav-item" role="presentation">
                                 <button class="nav-link active mx-1" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true"><i class="fas fa-th"></i></button>
                             </li>
@@ -46,17 +46,20 @@
                             </li>
                         </ul>             
                         <div class="tab-content" id="pills-tabContent">
-                            <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
-                                <img class="my-1" src="https://picsum.photos/id/1/200/200" alt="">
-                                <img class="my-1" src="https://picsum.photos/id/0/200/200" alt="">
-                                <img class="my-1" src="https://picsum.photos/id/1003/200/200" alt="">
-                                <img class="my-1" src="https://picsum.photos/id/1009/200/200" alt="">
-                                <img class="my-1" src="https://picsum.photos/id/1010/200/200" alt="">
-                                <img class="my-1" src="https://picsum.photos/id/1011/200/200" alt="">
-                                <img class="my-1" src="https://picsum.photos/id/1012/200/200" alt="">
-                                <img class="my-1" src="https://picsum.photos/id/1013/200/200" alt="">
-                                <img class="my-1" src="https://picsum.photos/id/1014/200/200" alt="">
-                                <img class="my-1" src="https://picsum.photos/id/1015/200/200" alt="">
+                            <div class="tab-pane fade show active grande" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+                                <div class="d-flex flex-wrap justify-content-md-between justify-content-sm-evenly justify-content-center">
+                                    <img class="my-1" src="https://picsum.photos/id/1/350/350" alt="">
+                                    <img class="my-1" src="https://picsum.photos/id/0/350/350" alt="">
+                                    <img class="my-1" src="https://picsum.photos/id/1003/350/350" alt="">
+                                    <img class="my-1" src="https://picsum.photos/id/1009/350/350" alt="">
+                                    <img class="my-1" src="https://picsum.photos/id/1010/350/350" alt="">
+                                    <img class="my-1" src="https://picsum.photos/id/1011/350/350" alt="">
+                                    <img class="my-1" src="https://picsum.photos/id/1012/350/350" alt="">
+                                    <img class="my-1" src="https://picsum.photos/id/1013/350/350" alt="">
+                                    <img class="my-1" src="https://picsum.photos/id/1014/350/350" alt="">
+                                    <img class="my-1" src="https://picsum.photos/id/1015/350/350" alt="">
+                                </div>
+                                
                             </div>
                             <div class="tab-pane fade d-block" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">        
                                 <div class="post mx-auto bg-light my-2">
@@ -65,7 +68,7 @@
                                         <div class="fecha float-end m-1"><p>01/11</p></div>                
                                     </div>
                                     <div class="foto">
-                                        <img src="https://picsum.photos/id/0/400/400" alt="Ciudad">
+                                        <img src="https://picsum.photos/id/0/350/350" alt="Ciudad">
                                     </div>
                                     <div class="botones mx-1 my1">
                                         <i class="far fa-heart"></i>
@@ -84,7 +87,7 @@
                                         <div class="fecha float-end m-1"><p>01/11</p></div>                
                                     </div>
                                     <div class="foto">
-                                        <img src="https://picsum.photos/id/1/400/400" alt="Ciudad">
+                                        <img src="https://picsum.photos/id/1/350/350" alt="Ciudad">
                                     </div>
                                     <div class="botones mx-1 my1">
                                         <i class="far fa-heart"></i>
@@ -103,7 +106,7 @@
                                         <div class="fecha float-end m-1"><p>01/11</p></div>                
                                     </div>
                                     <div class="foto">
-                                        <img src="https://picsum.photos/id/1003/400/400" alt="Ciudad">
+                                        <img src="https://picsum.photos/id/1003/350/350" alt="Ciudad">
                                     </div>
                                     <div class="botones mx-1 my1">
                                         <i class="far fa-heart"></i>
@@ -122,7 +125,7 @@
                                         <div class="fecha float-end m-1"><p>01/11</p></div>                
                                     </div>
                                     <div class="foto">
-                                        <img src="https://picsum.photos/id/1009/400/400" alt="Ciudad">
+                                        <img src="https://picsum.photos/id/1009/350/350" alt="Ciudad">
                                     </div>
                                     <div class="botones mx-1 my1">
                                         <i class="far fa-heart"></i>
@@ -141,7 +144,7 @@
                                         <div class="fecha float-end m-1"><p>01/11</p></div>                
                                     </div>
                                     <div class="foto">
-                                        <img src="https://picsum.photos/id/1010/400/400" alt="Ciudad">
+                                        <img src="https://picsum.photos/id/1010/350/350" alt="Ciudad">
                                     </div>
                                     <div class="botones mx-1 my1">
                                         <i class="far fa-heart"></i>
@@ -160,7 +163,7 @@
                                         <div class="fecha float-end m-1"><p>01/11</p></div>                
                                     </div>
                                     <div class="foto">
-                                        <img src="https://picsum.photos/id/1011/400/400" alt="Ciudad">
+                                        <img src="https://picsum.photos/id/1011/350/350" alt="Ciudad">
                                     </div>
                                     <div class="botones mx-1 my1">
                                         <i class="far fa-heart"></i>

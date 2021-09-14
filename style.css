@@ -2,6 +2,11 @@
     font-family: Pacifico;
 }
 
+.grande img {
+    min-height: 350px;
+    min-width: 350px;
+  
+}
 
 
 .nav-pills .nav-link.active {
@@ -19,7 +24,7 @@ body {
 
 
 .post {
-    width: 400px;
+    width: 350px;
 }
 
 #gear {
